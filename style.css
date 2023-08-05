@@ -1,30 +1,3 @@
-.todo-container {
-    max-width: 400px;
-    margin: 20px auto;
-    padding: 10px;
- 
-}
-
-#todoList{
-    margin: 17px;
-    max-height: 573px;
-    overflow-y: auto;
-}
-::-webkit-scrollbar-track
-{
-    box-shadow: inset 0.0 10000px rgba(70, 42, 42, 0.363);
-    border-radius: 20px;
-}
-::-webkit-scrollbar
-{
-    width: 9px;
-   
-}
-::-webkit-scrollbar-thumb{
-    background: rgba(0, 0, 0, 0.353)
-}
-
-
 body{
     background: linear-gradient(to top right, #d10ede, #2c9ed7);
     width: auto;
@@ -54,6 +27,37 @@ h2{
     padding: 1px 4px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
+
+
+
+.todo-container {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 10px;
+ 
+}
+
+#todoList{
+    margin: 17px;
+    max-height: 573px;
+    overflow-y: auto;
+}
+::-webkit-scrollbar-track
+{
+    box-shadow: inset 0.0 10000px rgba(70, 42, 42, 0.363);
+    border-radius: 20px;
+}
+::-webkit-scrollbar
+{
+    width: 9px;
+   
+}
+::-webkit-scrollbar-thumb{
+    background: rgba(0, 0, 0, 0.353)
+}
+
+
 
 
 .todo-input{
